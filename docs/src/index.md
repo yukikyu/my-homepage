@@ -3,7 +3,7 @@ home: true
 heroImage: /logo.jpg
 tagline: 
 actionText: 进入 →
-actionLink: /guide/
+actionLink: /datahub/
 features:
 - title: 一楼
   details: Feature 1 Description

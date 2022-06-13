@@ -1,7 +1,7 @@
 import m0 from "E:\\Documents\\GitHub\\my-homepage\\docs\\.temp\\app-enhancers\\0.js"
 import m1 from "E:\\Documents\\GitHub\\my-homepage\\docs\\.temp\\app-enhancers\\1.js"
 import m2 from "E:\\Documents\\GitHub\\my-homepage\\docs\\.temp\\app-enhancers\\data-block.js"
-import m3 from "E:\\Documents\\GitHub\\my-homepage\\docs\\.temp\\app-enhancers\\global-components-1.js"
+import m3 from "E:\\Documents\\GitHub\\my-homepage\\docs\\.temp\\app-enhancers\\global-components-3.js"
 import m4 from "E:\\Documents\\GitHub\\my-homepage\\docs\\.temp\\app-enhancers\\2.js"
 
 export default [

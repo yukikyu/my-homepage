@@ -9,36 +9,32 @@ import GlobalLayout from "E:\\Documents\\GitHub\\my-homepage\\docs\\node_modules
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-3d32e8ba",
-    path: "/config/",
+    name: "v-acdc4a16",
+    path: "/datahub/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3d32e8ba").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-acdc4a16").then(next)
     },
   },
   {
-    path: "/config/index.html",
-    redirect: "/config/"
+    path: "/datahub/index.html",
+    redirect: "/datahub/"
   },
   {
-    name: "v-e2a3cb64",
-    path: "/guide/using-vue.html",
+    name: "v-5514b66a",
+    path: "/datahub/datahub%E5%85%A5%E9%97%A8.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e2a3cb64").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5514b66a").then(next)
     },
   },
   {
-    name: "v-46823793",
-    path: "/guide/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-46823793").then(next)
-    },
+    path: "/datahub/datahub入门.html",
+    redirect: "/datahub/datahub%E5%85%A5%E9%97%A8.html"
   },
   {
-    path: "/guide/index.html",
-    redirect: "/guide/"
+    path: "/datahub/datahub入门.html",
+    redirect: "/datahub/datahub%E5%85%A5%E9%97%A8.html"
   },
   {
     name: "v-59b812d8",

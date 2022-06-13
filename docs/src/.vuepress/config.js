@@ -34,26 +34,18 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Datahub',
+        link: '/datahub/',
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/datahub/': [
         {
-          title: 'Guide',
+          title: 'Datahub',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'datahub入门',
           ]
         }
       ],

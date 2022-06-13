@@ -30,54 +30,62 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Config",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/config/",
-      "relativePath": "config/README.md",
-      "key": "v-3d32e8ba",
-      "path": "/config/",
+      "title": "DataHub",
+      "frontmatter": {},
+      "regularPath": "/datahub/",
+      "relativePath": "datahub/README.md",
+      "key": "v-acdc4a16",
+      "path": "/datahub/"
+    },
+    {
+      "title": "datahub入门",
+      "frontmatter": {},
+      "regularPath": "/datahub/datahub%E5%85%A5%E9%97%A8.html",
+      "relativePath": "datahub/datahub入门.md",
+      "key": "v-5514b66a",
+      "path": "/datahub/datahub%E5%85%A5%E9%97%A8.html",
       "headers": [
         {
           "level": 2,
-          "title": "foo",
-          "slug": "foo"
+          "title": "安装依赖",
+          "slug": "安装依赖"
         },
         {
           "level": 2,
-          "title": "bar",
-          "slug": "bar"
-        }
-      ]
-    },
-    {
-      "title": "Using Vue in Markdown",
-      "frontmatter": {},
-      "regularPath": "/guide/using-vue.html",
-      "relativePath": "guide/using-vue.md",
-      "key": "v-e2a3cb64",
-      "path": "/guide/using-vue.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Browser API Access Restrictions",
-          "slug": "browser-api-access-restrictions"
+          "title": "下载安装包",
+          "slug": "下载安装包"
         },
         {
           "level": 2,
-          "title": "",
-          "slug": ""
+          "title": "编译安装",
+          "slug": "编译安装"
+        },
+        {
+          "level": 2,
+          "title": "修改系统默认python指向",
+          "slug": "修改系统默认python指向"
+        },
+        {
+          "level": 2,
+          "title": "修改系统默认pip指向",
+          "slug": "修改系统默认pip指向"
+        },
+        {
+          "level": 2,
+          "title": "验证",
+          "slug": "验证"
+        },
+        {
+          "level": 2,
+          "title": "修复yum",
+          "slug": "修复yum"
+        },
+        {
+          "level": 2,
+          "title": "安装与启动datahub",
+          "slug": "安装与启动datahub"
         }
       ]
-    },
-    {
-      "title": "Introduction",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-46823793",
-      "path": "/guide/"
     },
     {
       "title": "Home",
@@ -86,7 +94,7 @@ export const siteData = {
         "heroImage": "/logo.jpg",
         "tagline": null,
         "actionText": "进入 →",
-        "actionLink": "/guide/",
+        "actionLink": "/datahub/",
         "features": [
           {
             "title": "一楼",
@@ -117,26 +125,18 @@ export const siteData = {
     "lastUpdated": false,
     "nav": [
       {
-        "text": "Guide",
-        "link": "/guide/"
-      },
-      {
-        "text": "Config",
-        "link": "/config/"
-      },
-      {
-        "text": "VuePress",
-        "link": "https://v1.vuepress.vuejs.org"
+        "text": "Datahub",
+        "link": "/datahub/"
       }
     ],
     "sidebar": {
-      "/guide/": [
+      "/datahub/": [
         {
-          "title": "Guide",
+          "title": "Datahub",
           "collapsable": false,
           "children": [
             "",
-            "using-vue"
+            "datahub入门"
           ]
         }
       ]
