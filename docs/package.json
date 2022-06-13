@@ -1,0 +1,19 @@
+{
+  "name": "my-homepage",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "yukikyu",
+    "email": "zynifff@gmail.com"
+  },
+  "repository": "/my-homepage",
+  "scripts": {
+    "dev": "vuepress dev src --temp .temp",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
