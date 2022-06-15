@@ -1,4 +1,22 @@
-# datahub入门
+# Datahub入门
+
+## 简介
+
+Datahub的架构有三个主要部分
+
+- 前端为Datahub frontend作为前端的页面展示
+
+丰富的前端展示让Datahub 拥有了支撑大多数功能的能力。其前端基于React框架研发，对于有二次研发打算的公司，要注意此技术栈的匹配性。
+
+- 后端 Datahub serving来提供后端的存储服务。
+
+Datahub 的后端开发语言为Python，存储基于ES或者Neo4J。
+
+- 而Datahub ingestion则用于抽取元数据信息。
+
+Datahub 提供了基于API元数据主动拉取方式，和基于Kafka的实时元数据获取方式。这对于元数据的获取非常的灵活。
+
+这三部分也是我们部署过程中主要关注的点，下面我们就从零开始部署Datahub，并获取一个数据库的元数据信息。
 
 ## 安装依赖
 
@@ -96,7 +114,11 @@ python3 -m datahub version
 
 DataHub CLI version: 0.8.20.0 Python version: 3.8.3 (default, Aug 10 2021, 14:25:56) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
 随后启动datahub
+
+```shell
 python3 -m datahub docker quickstart
+```
+
 会经过漫长的下载过程，耐心等待。
 
 开始启动，注意观察报错情况。如果网速不好，需要多执行几次。

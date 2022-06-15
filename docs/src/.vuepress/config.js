@@ -45,7 +45,9 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'datahub入门',
+            'Datahub入门',
+            '元数据摄入',
+            'Modeling - 建造模型',
           ]
         }
       ],
