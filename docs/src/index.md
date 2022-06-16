@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 heroImage: /logo.jpg
 tagline: 
 actionText: 进入 →
