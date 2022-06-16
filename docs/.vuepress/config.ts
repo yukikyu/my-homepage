@@ -1,38 +1,23 @@
-const { description } = require('../../package')
+import description from '../../package.json'
+
+
+// 默认主题
+import defaultTheme from '@vuepress/theme-default'
 
 module.exports = {
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
   title: '雪球的大书库',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
   description: description,
-
-  /**
-   * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
-   */
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
-
-  /**
-   * Theme configuration, here is the default theme configuration for VuePress.
-   *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
-   */
-  themeConfig: {
+  theme: defaultTheme({
     repo: '',
-    editLinks: false,
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    nav: [
+    navbar: [
       {
         text: 'Datahub',
         link: '/datahub/',
@@ -45,10 +30,9 @@ module.exports = {
     sidebar: {
       '/datahub/': [
         {
-          title: 'Datahub',
-          collapsable: false,
+          text: 'Datahub',
+          collapsible: true,
           children: [
-            '',
             'Datahub入门',
             '元数据摄入',
             'Modeling - 建造模型',
@@ -57,10 +41,9 @@ module.exports = {
       ],
       '/ttmall/': [
         {
-          title: 'Ttmall项目实战',
-          collapsable: true,
+          text: 'Ttmall项目实战',
+          collapsible: true,
           children: [
-            '',
             '00',
             '1.环境',
             '2.前端基础',
@@ -96,13 +79,10 @@ module.exports = {
         }
       ],
     }
-  },
-
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
+  }),
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+    'vuepress-plugin-mermaidjs',
+  ],
 }
