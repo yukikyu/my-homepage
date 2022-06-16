@@ -90,7 +90,7 @@ module.exports = {
             '26.内网穿透',
             '27.秒杀 - Sentinel',
             '28.定时任务',
-            '29.集群部署 - kubernaters(k8s)',
+            '29.集群部署 - kubernaters',
             '30.集群部署 - kubersphere',
           ]
         }
