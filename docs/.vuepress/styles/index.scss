@@ -4,6 +4,10 @@
  * ref：https://v1.vuepress.vuejs.org/config/#index-styl
  */
 
+#app {
+  height: 100vh;
+}
+
 .home .hero img {
   max-width: 450px !important;
 }
@@ -15,9 +19,14 @@
 }
 
 .no-sidebar {
+  height: 100%;
   background-image: url('/home-backgroud-image.png');
   background-size: 100%;
   background-repeat: no-repeat
+}
+
+.no-sidebar .page {
+  display: none;
 }
 
 .theme-default-content {

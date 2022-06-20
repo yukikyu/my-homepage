@@ -13,6 +13,7 @@ import mermaidPlugin from '@renovamen/vuepress-plugin-mermaid'
 module.exports = {
   port: 8087,
   title: '雪球的大书库',
+  head: [['link', { rel: 'icon', href: '/logo.jpg' }]],
   description: description,
   theme: defaultTheme({
     repo: '',
