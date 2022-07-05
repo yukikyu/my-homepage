@@ -45,3 +45,5 @@ DataHub的“核心”实体类型对构成现代数据堆栈的数据资产进�
 6. **[数据流](https://datahubproject.io/docs/generated/metamodel/entities/dataflow)**（管道）：具有依赖关系的数据作业的可执行集合，或 DAG。数据作业可以附加标签、所有者、链接、词汇表术语和描述。示例包括 Airflow DAG。
 
 请参阅左侧的**元数据建模/实体部分以探索整个模型。**
+
+

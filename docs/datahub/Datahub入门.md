@@ -18,6 +18,19 @@ Datahub 提供了基于API元数据主动拉取方式，和基于Kafka的实时�
 
 这三部分也是我们部署过程中主要关注的点，下面我们就从零开始部署Datahub，并获取一个数据库的元数据信息。
 
+## 安装jq
+
+```shell
+# 安装EPEL源
+yum install epel-release
+
+# 安装完EPEL源后，可以查看下jq包是否存在：
+yum list jq
+
+# 安装jq
+yum install jq
+```
+
 ## 安装依赖
 
 ```shell
@@ -36,7 +49,7 @@ tar -zxvf Python-3.8.3.tgz
 ```shell
 mkdir /usr/local/python3
 cd Python-3.8.3
-./configure --prefix=/usr/local/python3
+./configure --prefix=/usr/local/python3 --with-ssl
 make && make install
 ```
 
