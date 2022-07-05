@@ -31,7 +31,7 @@ DataHub采用模式优先的方法对元数据进行建模。我们使用开源P
 
 这是一个示例图，由 3 种类型的实体（CorpUser、Chart、Dashboard）、2 种关系类型（OwnedBy、Contains）和 3 种元数据方面（Ownership、ChartInfo 和 DashboardInfo）组成。
 
-![元数据模型示例图](/元数据模型示例图.png)
+![元数据模型示例图](/img/datahub/元数据模型示例图.png)
 
 ## 核心
 
