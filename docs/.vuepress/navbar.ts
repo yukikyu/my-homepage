@@ -13,7 +13,7 @@ export default [
     ]
   },
   {
-    "text": "摸鱼摸大的",
+    "text": "实用工具",
     "children": [
       {
         "text": "百度",
