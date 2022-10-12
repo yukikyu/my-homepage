@@ -48,5 +48,14 @@ export default {
                 "30.集群部署 - kubersphere"
             ]
         }
+    ],
+    "/jp/": [
+        {
+            "text": "日本語",
+            "collapsible": true,
+            "children": [
+                "01.五十音"
+            ]
+        }
     ]
 }

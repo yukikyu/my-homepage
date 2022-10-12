@@ -13,6 +13,15 @@ export default [
     ]
   },
   {
+    "text": "好き",
+    "children": [
+      {
+        "text": "日本語",
+        "link": "/jp/"
+      },
+    ]
+  },
+  {
     "text": "实用工具",
     "children": [
       {
