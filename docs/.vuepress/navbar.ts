@@ -13,7 +13,7 @@ export default [
     ]
   },
   {
-    "text": "好き",
+    "text": "充实一下👻",
     "children": [
       {
         "text": "日本語",
@@ -23,11 +23,10 @@ export default [
   },
   {
     "text": "实用工具",
-    "children": [
-      {
-        "text": "百度",
-        "link": "www.baidu.com"
-      }
-    ]
-  }
+    "link": "/tools/"
+  },
+  {
+    "text": "摸鱼🐟",
+    "link": "/sawaru-sakana/"
+  },
 ]

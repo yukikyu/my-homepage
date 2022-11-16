@@ -57,5 +57,17 @@ export default {
                 "01.五十音"
             ]
         }
-    ]
+    ],
+    "/tools/": [
+        {
+            "text": "工具🔧",
+            "collapsible": false
+        }
+    ],
+    "/sawaru-sakana/": [
+        {
+            "text": "摸鱼🐟",
+            "collapsible": false
+        }
+    ],
 }

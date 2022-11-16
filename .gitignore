@@ -25,3 +25,6 @@ dist-ssr
 
 .temp/
 .cache/
+
+.history/
+.package-lock.json

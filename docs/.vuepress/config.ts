@@ -8,11 +8,11 @@ import defaultTheme from '@vuepress/theme-default'
 // 搜索
 import search from '@vuepress/plugin-search'
 
-import mermaidPlugin from '@renovamen/vuepress-plugin-mermaid'
+// import mermaidPlugin from '@renovamen/vuepress-plugin-mermaid'
 
 module.exports = {
   port: 8087,
-  title: '雪球的大书库',
+  title: '雪球のnotebook',
   head: [['link', { rel: 'icon', href: '/logo.jpg' }]],
   description: description,
   theme: defaultTheme({
@@ -25,6 +25,9 @@ module.exports = {
   }),
   plugins: [
     search({}),
-    mermaidPlugin({ token: "mermaid" })
+    // mermaidPlugin({ token: "mermaid" })
+    [
+      '@renovamen/vuepress-plugin-mermaid'
+    ]
   ],
 }
