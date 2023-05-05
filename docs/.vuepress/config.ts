@@ -12,7 +12,7 @@ import search from '@vuepress/plugin-search'
 
 module.exports = {
   port: 8087,
-  title: '雪球のnotebook',
+  title: 'YUKIKYUのnotebook',
   head: [['link', { rel: 'icon', href: '/logo.jpg' }]],
   description: description,
   theme: defaultTheme({

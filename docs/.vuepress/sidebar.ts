@@ -10,9 +10,9 @@ export default {
             ]
         }
     ],
-    "/ttmall/": [
+    "/microservice-demo/": [
         {
-            "text": "Ttmall项目实战",
+            "text": "微服务DEMO🧩",
             "collapsible": true,
             "children": [
                 "00",
@@ -55,6 +55,24 @@ export default {
             "collapsible": true,
             "children": [
                 "01.五十音"
+            ]
+        }
+    ],
+    "/shell/": [
+        {
+            "text": "shell入门💻",
+            "collapsible": true,
+            "children": [
+                "一、概述",
+                "二、Shell解释器",
+                "三、Shell脚本入门",
+                "四、Shell中的变量",
+                "五、运算符",
+                "六、条件判断",
+                "七、流程控制",
+                "八、read读取控制台输入",
+                "九、函数（重点）",
+                "十、Shell工具（重点）"
             ]
         }
     ],

@@ -1,14 +1,18 @@
 export default [
   {
-    "text": "开发记录",
+    "text": "开发记录📝",
     "children": [
       {
         "text": "Datahub",
         "link": "/datahub/"
       },
       {
-        "text": "Ttmall项目实战",
-        "link": "/ttmall/"
+        "text": "微服务DEMO🧩",
+        "link": "/microservice-demo/"
+      },
+      {
+        "text": "shell入门",
+        "link": "/shell/"
       }
     ]
   },
@@ -16,13 +20,13 @@ export default [
     "text": "充实一下👻",
     "children": [
       {
-        "text": "日本語",
+        "text": "日本語🔴",
         "link": "/jp/"
       },
     ]
   },
   {
-    "text": "实用工具",
+    "text": "实用工具🛠",
     "link": "/tools/"
   },
   {
