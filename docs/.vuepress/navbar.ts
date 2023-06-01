@@ -13,6 +13,10 @@ export default [
       {
         "text": "shell入门",
         "link": "/shell/"
+      },
+      {
+        "text": "设计模式",
+        "link": "/design-mode/"
       }
     ]
   },

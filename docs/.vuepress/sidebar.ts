@@ -10,10 +10,76 @@ export default {
             ]
         }
     ],
+    "/design-mode/": [
+        {
+            "text": "设计模式",
+            "children": [
+                {
+                    "text": "创建型（Creational Design Patterns）",
+                    "collapsible": true,
+                    "link": "/design-mode/creational-design-patterns/",
+                },
+                {
+                    "text": "结构型（Structural Design Patterns）",
+                    "collapsible": true,
+                    "link": "/design-mode/structural-design-patterns/",
+                },
+                {
+                    "text": "行为型（Behavioral Design Patterns）",
+                    "collapsible": true,
+                    "link": "/design-mode/behavioral-design-patterns/",
+                }
+            ]
+        }
+    ],
+    "/design-mode/creational-design-patterns/": [
+        {
+            "text": "创建型（Creational Design Patterns）",
+            "collapsible": true,
+            "children": [
+                "1.简易工厂（simple）",
+                "2.工厂方法（factory）",
+                "3.抽象工厂（abstract）",
+                "4.构建器（builder）",
+                "5.原型（prototype）",
+                "6.单例（singleton）"
+            ]
+        }
+    ],
+    "/design-mode/structural-design-patterns/": [
+        {
+            "text": "结构型（Structural Design Patterns）",
+            "children": [
+                "1.适配器（adapter）",
+                "2.桥接（bridge）",
+                "3.合成（composite）",
+                "4.装饰者（decorator）",
+                "5.门面（facade）",
+                "6.享元（flyweight）",
+                "7.代理（proxy）"
+            ]
+        }
+    ],
+    "/design-mode/behavioral-design-patterns/": [
+        {
+            "text": "行为型（Behavioral Design Patterns）",
+            "children": [
+                "1.责任链（chainOfResponsibility）",
+                "2.命令（command）",
+                "3.迭代器（iterator）",
+                "4.调解员（mediator）",
+                "5.备忘录（memento）",
+                "6.观察者（observer）",
+                "7.访客（visitor）",
+                "8.策略（strategy）",
+                "9.状态（state）",
+                "10.模板方法（templateMethod）"
+            ]
+        }
+    ],
     "/microservice-demo/": [
         {
             "text": "微服务DEMO🧩",
-            "collapsible": true,
             "children": [
                 "00",
                 "1.环境",
